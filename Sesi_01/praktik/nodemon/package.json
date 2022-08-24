@@ -1,0 +1,21 @@
+{
+  "name": "sib_malvino-austin-tanura_react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalvinoTan/sib_malvino-austin-tanura_react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MalvinoTan/sib_malvino-austin-tanura_react/issues"
+  },
+  "homepage": "https://github.com/MalvinoTan/sib_malvino-austin-tanura_react#readme",
+  "description": ""
+}
