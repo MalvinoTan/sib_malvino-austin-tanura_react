@@ -1,5 +1,3 @@
-/**
-
 ==========
 Assignment : Membuat simple online calculator menggunakan HTML, CSS dan JS
 ==========
@@ -39,5 +37,3 @@ Berbeda dengan filter, map tidak membuang elemen array. Map melakukan transforma
 
 Reduce
 Kita bisa melakukan filter dengan reduce atau operasi map dengan reduce juga (meskipun tidak perlu). Jadi reduce bisa digunakan untuk operasi yang methodnya tidak bisa kita temukan misalnya menjumlahkan (summarize), mencari nilai rata-rata dan lain sebagainya.
-
- */

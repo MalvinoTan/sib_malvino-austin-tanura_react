@@ -1,5 +1,3 @@
-/**
-
 1. Apa itu variabel
 Variabel adalah tempat penyimpanan suatu data maupun informasi
 
@@ -80,5 +78,3 @@ Operasi array:
 Merge 2 array: array1.push.apply(array1, array2)
 Menghapus item: array.splice(index_yang_ingin_dihapus, 1)
 Mengosongkan array: array.splice(0, array.length)
-
-*/
