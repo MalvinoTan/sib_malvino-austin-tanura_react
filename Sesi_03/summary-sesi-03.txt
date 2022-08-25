@@ -1,0 +1,25 @@
+Mendefinisikan Class
+Biasanya nama class dimulai dengan huruf kapital, contoh: Employee, Person
+
+Constructor
+Mirip seperti mendeklarasikan method, bedanya constuctor secara otomatis akan dijalankan pada saat inisialisasi class dengan keyword this
+
+Class Inheritance
+Menggunakan sintaks "extends" yang membuat semua method dan properties dari parent diwariskan ke childnya.
+
+Method super
+Digunakan untuk berinteraksi dengan class parent dari class childnya
+
+---
+IIFE (Immediately Invoked Function Expression)
+Function yang dibungkus dengan tanda kurung untuk langsung dieksekusi
+
+Javascript Modules
+Dengan modules kita bisa melakukan import dan export terhadap sebuah class sehingga bisa digunakan pada file lain
+
+Promise
+Promise adalah sebuah objek yang menghasilkan sebuah nilai dimasa yang akan datang.
+Berisi resolve (jika berhasil) dan reject (jika gagal)
+
+New Promise
+Digunakan untuk membuat sebuah function dapat menggunakan Promise
