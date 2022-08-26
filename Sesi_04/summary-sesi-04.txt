@@ -1,0 +1,17 @@
+Pengenalan React
+React merupakan salah satu library Javascript untuk membangun User Interface.
+
+Konsep utama React yaitu berbasis komponen.
+
+Aliran Data Satu Arah
+View -> Action -> Store -> View
+
+React akan selalu re-render ketika ada perubahan state
+
+Virtual DOM
+Struktur data yang menyimpan informasi lengkap tentang DOM seperti blueprint.
+React akan melakukan perubahan pada Virtual DOM terlebih dahulu lalu melakukan perbandingan ke DOM dan melakukan perubahan di bagian yang berbeda saja.
+
+JSX
+Dapat digunakan untuk menulis kode yang sangat mirip HTML atau lebih tepatnya XML.
+Dengan JSX juga memudahkan dalam menulis kode HTML yang diinginkan.
