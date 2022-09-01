@@ -1,0 +1,14 @@
+Aliran Data di React
+View -> Action -> Store -> View
+
+State
+State adalah seluruh informasi dari suatu aplikasi yang dibutuhkan pada satu waktu
+
+Props
+Props adalah sebuah cara untuk mengirim data (informasi, state) dari parent component ke child component
+
+PropTypes
+PropTypes memungkinkan kita melakukan validasi (misalnya tipe data) terhadap props yang kita harapkan.
+
+Atomic Design
+Atomic Design adalah pendekatan desain yang dipopulerkan oleh Brad Frost, yang memecah elemen aplikasi web menjadi bagian-bagian modular hingga yang paling kecil.

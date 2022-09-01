@@ -1,0 +1,18 @@
+Stateful dan Stateless Component
+
+Stateful => Class Component
+Artinya sebuah komponen akan menyimpan informasi/state terkait komponen tersebut.
+
+Stateless => Functional Component
+Artinya sebuah komponen tidak memiliki dan tidak bertanggungjawab terhadap state. Penggunaannya sederhana.
+
+React Fragment
+Tujuannya mengurangi operasi DOM yang mahal dan membuat kode kita berjalan seefisien mungkin. Dengan adanya Fragments pada React 16 akhirnya kita dapat mengembalikan child component kita tanpa menggunakan tag <div> atau <span>
+
+React Hooks
+
+useState
+useState untuk menyimpan state
+
+useEffect
+useEffect untuk memberikan efek samping ketika ada perubahan state

@@ -1,0 +1,3 @@
+Homework: memisah jadi komponen
+
+Sudah dibuat di homework Sesi_04

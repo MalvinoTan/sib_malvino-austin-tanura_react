@@ -1,0 +1,3 @@
+Untuk materi memakai stateless component sudah pernah dicoba di Homework Sesi_04
+
+Untuk materi memakai fragment sudah pernah dicoba di materi Sesi_05

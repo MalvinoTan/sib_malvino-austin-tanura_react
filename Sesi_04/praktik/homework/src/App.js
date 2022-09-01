@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import './App.css';
 
 /** Components */
@@ -11,9 +12,16 @@ import RecentMeetupCard from './components/RecentMeetupCard';
 import SectionTitle from './components/SectionTitle';
 
 const App = () => {
+
+  const [menus, setMenus] = useState([]);
+
+  useEffect(() => {
+    setMenus(['Create Meetup', 'Explore']);
+  }, []);
+
   return (
     <div className="App">
-      <Header title="Qtemu" menus={['Create Meetup', 'Explore']} />
+      <Header title="Qtemu" menus={menus} />
       <RecentMeetupCard 
         details={{
           title: "Hacktiv8 Meetup",
