@@ -1,4 +1,0 @@
-Assignment materi: ubah jadi stateless
-Homework: memakai state dan props
-
-Sudah ada di homework Sesi_04
