@@ -1,0 +1,28 @@
+Mounting
+constructor()
+Akan dipanggil saat sebuah komponen diinisialisasi.
+
+render()
+Setiap komponen class harus memiliki method ini dan harus me-return sebuah komponen.
+
+componentDidMount()
+Akan dipanggil ketika sebuah komponen selesai diletakkan di DOM sebuah browser.
+
+
+Updating
+shouldComponentUpdate(nextProps, nextState)
+Default behaviour dari React adalah selalu re-render setiap ada perubahan state atau props.
+
+componentDidUpdate(prevProps, prevState)
+Method yang satu ini akan dipanggil tepat setelah render dipanggil.
+
+
+Unmounting
+componentWillUnmount()
+Akan dipanggil sebelum kita menghapus komponen dari DOM.
+
+
+Error Handling
+componentDidCatch()
+Mulai React 16, kita bisa menggunakan class method ini. Ketika terjadi kesalahan, jenis kesalahan apapun, kita sekarang bisa menampilkan pesan error yang lebih baik.
+

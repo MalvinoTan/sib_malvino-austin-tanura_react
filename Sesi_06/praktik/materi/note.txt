@@ -1,3 +1,5 @@
+Karena fokus ke assignment, maka untuk materi tidak dibuat semua di sini, tetapi sudah pernah dicoba sebelumnya
+
 Untuk materi memakai stateless component sudah pernah dicoba di Homework Sesi_04
 
 Untuk materi memakai fragment sudah pernah dicoba di materi Sesi_05
