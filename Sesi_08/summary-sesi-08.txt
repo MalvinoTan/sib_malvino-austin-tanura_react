@@ -1,0 +1,14 @@
+Inline CSS
+Menggunakan double curly bracket {{ }} dan syntax js object
+<Component style={{ property1: "value1", property2: "value2" }}>
+
+Object Variable CSS
+Teknik ini hanyalah pemisahan aja dari inline menjadi sebuah variable. Ditulis dengan style object dan dipanggil dengan { }, single curly bracket
+
+External CSS
+Seperti syntax CSS seperti biasa dari file yang berbeda
+
+External CSS Module
+Sama seperti External CSS, hanya saja kali ini kita load sebagai module dan file css nya pun kita beri akhiran .module.css
+
+External Object Variable CSS
