@@ -12,3 +12,18 @@ External CSS Module
 Sama seperti External CSS, hanya saja kali ini kita load sebagai module dan file css nya pun kita beri akhiran .module.css
 
 External Object Variable CSS
+Sama seperti External CSS, hanya saja kali ini bentuk nya adalah Object Variable CSS
+
+Styled Components
+Styled Components adalah sebuah library React dan React Native yang memungkinkan kita melakukan styling komponen menggunakan campuran JavaScript dan CSS.
+
+CSS in JS Libraries
+CSS in JS menjadi semakin populer akhir-akhir ini sebagai library yang menyediakan fungsionalitas untuk bisa memberikan styling pada React component kita. 
+
+Beberapa UI Framework
+- Bootstrap
+- Bulma
+- Materialize
+- Tailwind
+- Milligram
+- Pure CSS
