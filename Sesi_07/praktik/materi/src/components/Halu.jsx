@@ -1,4 +1,6 @@
-class Halu extends React.Component {
+import React from "react";
+
+export default class Halu extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -11,9 +13,11 @@ class Halu extends React.Component {
 
     shouldComponentUpdate(nextProps, nextState) {
         if (this.state.users.length !== nextState.users.length) {
+            console.log(true);
             return true;
         }
 
+        console.log(false);
         return false;
     }
 
@@ -32,6 +36,13 @@ class Halu extends React.Component {
                     console.log(err);
                 })
         }
+    }
+
+
+    render() {
+        return (
+            <></>
+        )
     }
 
     // // eventData add event listener

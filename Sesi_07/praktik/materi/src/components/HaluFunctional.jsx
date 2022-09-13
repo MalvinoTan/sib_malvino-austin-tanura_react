@@ -9,8 +9,6 @@ export default function HaluFunctional() {
             .then(data => setTodos(data.slice(0, 20)))
     }, [])
 
-    console.log(todos);
-
     return (
         <div>
             {
