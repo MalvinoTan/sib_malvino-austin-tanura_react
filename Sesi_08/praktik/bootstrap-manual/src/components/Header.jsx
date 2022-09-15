@@ -17,7 +17,7 @@ const Header = () => {
                             <a href="/" className="nav-link link-dark px-2" aria-controls="page">About</a>
                         </li>
                     </ul>
-                    <ul className="nav me-auto">
+                    <ul className="nav me-end">
                         <li className="nav-item">
                             <a href="/" className="nav-link link-dark px-2" aria-controls="page">Login</a>
                         </li>

@@ -1,0 +1,30 @@
+Single Page Application (SPA)
+SPA adalah implementasi aplikasi web yang memuat hanya satu dokumen web, dan kemudian memperbarui konten isi dokumen tunggal tersebut melalui API JavaScript seperti XMLHttpRequest dan Fetch ketika konten yang berbeda akan ditampilkan.
+
+React Router
+React Router adalah koleksi dari komponen yang mampu melakukan navigasi aplikasi secara deklaratif.
+
+Ada 3 component utama dalam meng-implementasikan React Routers:
+1.Router, yaitu <BrowserRouter>
+2.Route, yaitu <Route> yang akan menjadi nested component dari <Routes>
+3.Navigation, di antaranya adalah <Link>, <NavLink>, dan <Redirect>
+
+Nested Route
+Halaman memiliki sub halaman lainnya
+
+URL Parameters
+Untuk URL yang dinamis (:id)
+
+Programmatic Navigation
+Menggunakan useNavigate()
+
+Protected Route
+Untuk fitur atau halaman yang hanya bisa diakses oleh user tertentu.
+
+Redirect
+Menggunakan useNavigate()
+
+
+
+
+
