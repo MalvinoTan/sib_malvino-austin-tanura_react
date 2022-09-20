@@ -1,0 +1,21 @@
+Kenapa Redux?
+- Complex data flow
+- Many actions
+- Same data used in multiple places
+
+Redux Principles
+- Single Source of Truth
+State global dari Front End di simpang di sebuah object tree dengan sebuah store (single store)
+- State is Read Only
+Satu-satunya cara untuk merubah state adalah melalui action. Action adalah sebuah object yang menggambarkan apa yang harus terjadi
+- Changes are made with pure functions
+Untuk menjelaskan secara detail bagaimana sebuah state dapat di “ubah” oleh action, kita harus menulis sebuah reducer
+
+Yang dibutuhkan dengan Redux
+- Redux itu sendiri
+- Initial State. Bisa dalam bentuk tipe data apapun, tapi hampir dapat dipastikan secara practice akan digunakan sebuah object. 
+- Reducer. Sebuah function dengan 2 parameter : state dan action.
+- Function createStore dengan parameter sebuah reducer untuk meng inisiasi store
+- Function subscribe (optional) untuk bisa mendaftarkan sebuah aksi yang akan di trigger secara otomatis ketika ada perubahan state
+- Function dispatch yang menerima parameter berupa object berisi type dan payload (optional) untuk diteruskan dan di konsumsi oleh reducer
+
