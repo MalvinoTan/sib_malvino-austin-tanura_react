@@ -1,0 +1,8 @@
+Redux Logger
+Yaitu ebuah logger untuk Redux. 
+Setiap terjadi perubahan state, action di panggil dan berbagai hal yang berhubungan dengan Redux, akan muncul informasi di console browser.
+
+Redux Toolkit menyediakan function createAsyncThunk untuk memproses async.
+
+Thunk
+Adalah sebuah fungsi yang membungkus 1 atau beberapa expresi yang akan di evaluasi.
