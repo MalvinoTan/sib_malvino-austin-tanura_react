@@ -1,0 +1,45 @@
+Tujuan Testing
+Tujuannya agar kode yang kita hasilkan selalu berkualitas tinggi dan merupakan sebuah garansi bahwa apa yang sudah kita kerjakan sesuai harapan, dan tentunya jumlah bugs atau kesalahan yang sangat minimal
+
+Jenis Testing
+- Unit Testing
+Testing terhadap fungsi tunggal atau single functionality
+- Integration Testing
+Beberapa fungsi terkait ditest secara bersamaan
+- End to end Testing
+Memastikan seluruh fungsi bekerja dari perspektif user.
+
+JEST
+JEST adalah sebuah testing framework dalam bahasa JavaScript yang biasanya digunakan untuk melakukan testing di sisi FE
+
+React Testing Library (RTL)
+RTL adalah utility yang bisa kita pakai untuk melakukan testing terhadap aplikasi React.
+
+Aspek yang dapat ditest dalam konsep React:
+1.Test render: memastikan komponen dirender tanpa error
+2.Test output: memastikan komponen dirender dengan text, atau output yang diinginkan
+3.Test props, state, event, dan lain sebagainya
+
+RTL yang melakukan interaksi dan JEST yang melakukan pengecekan terhadap hasil interaksinya
+
+Function dalam JEST:
+- test : untuk memberikan scope / judul dari rangkaian test yang akan dijalankan
+- expect : untuk binding expektasi terhadap suatu DOM yang kita akan test, dan akan di chain dengan toBe<something>
+- toBe<something> : untuk memeriksa expektasi kita, ada puluhan toBe yang bisa digunakan, silakan cek di dokumentasinya
+Lebih lengkap: https://jestjs.io/
+
+Function dalam RTL:
+- render : untuk render sebuah component
+- debug : untuk menampilkan seluruh DOM yang ter-render, merupakan shortcut dari console.log(prettyDOM(baseElement))
+- fireEvent : untuk men-trigger sebuah DOM event●waitFor : untuk menunggu sebuah fungsi berjalan hingga selesai, biasanya untuk proses async
+Lebih lengkap: https://testing-library.com/
+
+Deployment
+Deployment yaitu ngepush app kita tahap production agar dapat dipakai oleh orang lain.
+
+Beberapa penyedia layanan deployment:
+- Netlify
+- Heroku
+- Vercel
+- Surge
+- Dan lain-lain
