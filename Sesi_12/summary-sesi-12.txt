@@ -1,0 +1,25 @@
+Server-Side Rendering (SSR) 
+SSR adalah teknik untuk menampilkan Single Page Application (SPA) yang akan di-render oleh server. Lalu, hasilnya akan diteruskan kepada client.
+
+Cara Kerja SSR
+1. Client melakukan request ke server
+2. Client mendapatkan HTML dari server dan mengambil kode JS yang diperlukan
+3. Setelah kode JavaScript berhasil didapat, client selanjutnya akan mengeksekusi kode React.
+
+Kelebihan SSR
+- Search Engine Optimization (SEO)
+SSR akan membantu search engine melakukan crawling konten aplikasi/website kita.
+- Efisien dan Cepat
+Karena prosesnya dilakukan pada server, maka server-lah yang akan menanggung beban ketika mengambil data.
+- Load Time Meningkat
+Karena semua pengambilan data dan rendering dilakukan pada server, maka waktu yang dibutuhkan untuk mengirimkan response akan meningkat juga.
+- Potensi Masalah dengan Kode Pihak Ketiga
+
+Next.js
+Next.js merupakan framework berbasis React yang menyediakan semua yang kita butuhkan. Salah satunya adalah fitur SSR.
+Install otomatis: npx create-next-app@latest
+
+Kapan menggunakan SSR?
+Tergantung kebutuhan, misalnya:
+- Ketika membuat aplikasi sederhana dan tidak kompleks, semisal untuk menampilkan artikel, maka bisa mengimplementasikan SSR.
+- Ketika ingin konten aplikasi kamu dicari oleh search engine, maka disarankan untuk mengimplementasikan SSR, agar lebih mudah dicari.
