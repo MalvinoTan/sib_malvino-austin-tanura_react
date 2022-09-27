@@ -34,7 +34,16 @@ input[type="submit"] {
     border: 3px solid lightgray;
     border-radius: 5px;
     font-size: 20px;
-    background: white;
+    background: greenyellow;
+}
+
+input[type="submit"]:hover {
+    background: rgb(138, 205, 38);
+    cursor: pointer;
+}
+
+input[type="submit"]:active {
+    background: rgb(102, 152, 27);
 }
 
 .message {

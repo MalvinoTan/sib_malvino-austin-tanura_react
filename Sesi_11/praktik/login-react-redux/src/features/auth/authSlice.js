@@ -14,7 +14,7 @@ function callLoginApi(email, password) {
                 resolve({ email });
             }
             else {
-                reject("Invalid email and password");
+                reject("Invalid email or password");
             }
         }, 1000)
     })
@@ -38,6 +38,7 @@ const authSlice = createSlice({
         builder
             .addCase(authLoginAPI.pending, (state) => {
                 state.isLoginPending = true;
+                state.isLoginSuccess = false;
                 state.errorMessage = "";
             })
             .addCase(authLoginAPI.fulfilled, (state, action) => {
