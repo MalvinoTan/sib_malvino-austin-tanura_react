@@ -1,0 +1,12 @@
+React Native mempunyai beberapa opsi untuk debugging. 
+
+Untuk mengakses debugging tools kita bisa menekan tombol command + d untuk simulator iOS dan command + m untuk emulator Android. 
+
+Opsi:
+1.Reload. Digunakan untuk me-reload ulang aplikasi kita.
+2.Debug JS Remotely akan membuka chrome browser dan kita dapat melakukan debug seperti console.log atau debugger untuk setting breakpoint.
+3.Enable Live Reload secara otomatis me-reload ulang aplikasi kita ketika ada perubahan file.
+4.Enable Hot Reloading jika opsi sebelumnya me-reload seluruh aplikasi kita, hot reload akan me-reload sebagian aplikasi kita dengan tetap mempertahankan posisi atau current state dan hanya me-reload bagian yang berubah saja.
+5.Toggle Inspector digunakan untuk mencari komponen-komponen seperti inspect element jika di browser.
+6.Show Perf Monitor dapat digunakan untuk memonitor performance dari aplikasi kita. 
+Selain itu kita juga bisa menggunakan console.warn untuk menampilkan warning di hp atau emulator.
