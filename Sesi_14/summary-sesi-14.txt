@@ -1,0 +1,11 @@
+React Native adalah sebuah framework berbasis JavaScript yang digunakan untuk mengembangkan aplikasi mobile di dua sistem operasi secara bersamaan, yaitu Android dan iOS.
+
+React Native melakukan transpilasi kode JSX yang kita tulis menjadi JavaScript murni sama halnya seperti yang terjadi dipengembangan aplikasi web. 
+Kemudian dari kode JavaScript hasil transpilasi tersebut, JavaScript diterjemahkan menjadi elemen-elemen native dengan bantuan JavaScript Core sehingga menjadi kode native baik itu Objective-C di iOS ataupunJava di Android.
+
+Untuk membuat React Native app, kita bisa gunakan 2 tool yaitu React Native CLI dan Expo.
+
+Ada 3 pilihan yang mudah untuk kita dapat menjalankan / melihat hasil koding React Native kita : 
+- Android emulator, 
+- Android based phone, dan 
+- iOS based phone.
