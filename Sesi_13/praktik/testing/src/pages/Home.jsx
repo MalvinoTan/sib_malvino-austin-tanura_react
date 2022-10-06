@@ -12,6 +12,9 @@ const Home = () => {
                     </p>
                     <Link to="/users" className="btn btn-primary btn-lg" type="button" role="button">
                         Users List
+                    </Link>{' '}
+                    <Link to="/about" className="btn btn-success btn-lg" type="button" role="button">
+                        About
                     </Link>
                 </div>
             </div>
