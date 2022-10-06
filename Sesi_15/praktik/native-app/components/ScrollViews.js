@@ -5,7 +5,7 @@ import { Text, View, ScrollView } from "react-native";
 const ScrollViews = () => {
     let posts = [];
 
-    for (let i = 1; i <= 10; i++) {
+    for (let i = 1; i <= 20; i++) {
         posts.push({
             title: `Title ${i}`,
             description: `Deskripsi untuk title ${i}`
@@ -32,7 +32,7 @@ const ScrollViews = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        marginTop: 25
+        marginTop: 30
     },
     scroll: {
         backgroundColor: "#C2B8A3",

@@ -11,8 +11,8 @@ const App = () => {
     // <Flexbox />
     // <StylingBasic />
     // <HandlingTextInput />
-    // <ScrollViews />
-    <ListViewFlatList />
+    <ScrollViews />
+    // <ListViewFlatList />
   );
 }
 
